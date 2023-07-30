@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#shakespeareanText {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Add this to style the "Bard's Fortune" section */
+.fortune-teller {
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fortune-teller h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.fortune-teller input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fortune-teller button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.fortune-teller button:hover {
+    background-color: #0056b3;
+}
+
+#fortuneResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
+

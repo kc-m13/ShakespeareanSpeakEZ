@@ -14,26 +14,36 @@ body {
   justify-content: center;
   padding: 0 10px;
   min-height: 100vh;
-  background: #f7e1d7; /* Classic off-white background */
+  background-image: url("translation_blog_pic.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
   max-width: 800px;
   width: 100%;
   padding: 30px;
-  background: #f3e4d3; /* Classic beige background */
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
 }
 
 .wrapper {
   border-radius: 10px;
-  border: 1px solid #d4c4b4; /* Classic brownish border */
+  background: rgba(255, 255, 255, 0.9); /* Translucent background for glassmorphism effect */
+  backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  
 }
 
 .wrapper .text-input {
   display: flex;
   border-bottom: 1px solid #d4c4b4; /* Classic brownish border */
+  background-color: #f0f0f0; /* Lighter background color */
+  border-radius: 10px;
+
 }
 
 .text-input .to-text {
@@ -143,17 +153,41 @@ li,
   padding: 14px;
   outline: none;
   border: none;
-  color: #fff;
+  
   cursor: pointer;
   margin-top: 20px;
   font-size: 17px;
-  border-radius: 5px;
-  background: #a59483; /* Classic muted button background */
+  
+  
   transition: background-color 0.2s ease;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker transparent background color */
+  border-radius: 5px;
+  color: #fff;
+
+  
+  
+  font-weight: 600;
+  
+  padding: 12px 20px;
+  
+
+  
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+
+  
+    
+    -webkit-text-stroke: 1px rgb(0, 65, 65); /* Adjust the stroke color and width */
+
+
+
 }
 
 .container button:hover {
-  background-color: #8c785c; /* Classic darker button background on hover */
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  
 }
 
 @media (max-width: 660px) {
@@ -184,3 +218,4 @@ li,
     font-size: 14px;
   }
 }
+

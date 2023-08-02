@@ -1,74 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
 body {
     font-family: Arial, sans-serif;
+    align-items: center;
     text-align: center;
     padding: 20px;
+    background-image: url("How-to-Read-and-Understand-Shakespeare_Twelfth-Night_QBS_Feature_A_1.webp"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+
+}
+
+
+#maincontainer{
+  width: 600px;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-    margin-bottom: 20px;
+    font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 input[type="text"] {
     padding: 8px;
     font-size: 16px;
+    height: 20px;
+    background:transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
 }
 
-button {
-    padding: 8px 16px;
-    font-size: 16px;
-    background-color: #007BFF;
-    color: #fff;
+input[type="text"]::placeholder {
+    color: white;
+  }
+
+  button {
+    margin-top: 10px;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
     border: none;
+    padding: 12px 20px;
     cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease; 
+  }
+
+#button-text{
+    text-shadow: 0 0 3px rgb(172, 134, 233);  
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #692206;
 }
 
 #shakespeareanText {
     margin-top: 20px;
     font-size: 18px;
+    color: white ;
 }
 
 /* Add this to style the "Bard's Fortune" section */
 .fortune-teller {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 20px;
-    border: 2px solid #007BFF;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 8px;
-    max-width: 400px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+  flex-direction: column;
+    
 }
 
 .fortune-teller h2 {
+    margin-top: 10px;
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 .fortune-teller input[type="text"] {
-    width: 100%;
+    
     padding: 8px;
     font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.fortune-teller button {
-    padding: 8px 16px;
+    height: 20px;
+    background:transparent;
+    outline: none;
     font-size: 16px;
-    background-color: #007BFF;
-    color: #fff;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.fortune-teller button {
+    margin-top: 10px;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
     border: none;
+    padding: 12px 20px;
     cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+   
+    
+  }
+
+#fortune-teller button-text{
+    text-shadow: 0 0 3px rgb(172, 134, 233);
+    
+     
 }
 
 .fortune-teller button:hover {
-    background-color: #0056b3;
+    background-color: #692206;
 }
 
 #fortuneResult {
     margin-top: 20px;
     font-size: 18px;
 }
+
+
 
